@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ConnectifyApplication<connectify>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aasthagupta.connectify.ConnectifyApplication",
+            "projectName": "connectify",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
