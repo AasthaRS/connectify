@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
     <style>
         .container{
             margin: auto;
@@ -15,7 +16,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 data-th-text="${name}">Welcome to home page</h1>
+        <h1 class="text-4xl font-extrabold" data-th-text="${name}">Welcome to home page</h1>
         <p>Description: <span th:text="${description}"></span></p>
         <a th:href="${portfolio}">GitHub link</a>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae nemo corrupti similique quas maxime, molestiae maiores minima tempore placeat! Quibusdam laboriosam fugiat, eos dignissimos saepe veritatis? Atque tenetur quasi eaque, quia molestias tempora voluptatibus aliquid, maiores voluptates, cupiditate temporibus qui ut recusandae repellat enim veniam? Velit id asperiores eius quisquam.</p>
